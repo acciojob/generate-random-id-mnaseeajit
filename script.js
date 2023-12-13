@@ -1,9 +1,10 @@
 function makeid(l) {
   // write your code here
+	let char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 	let res = " ";
-	for(i = 1;i<=l;i++)
+	for(i = 0;i<l;i++)
 		{
-			res = res + 'a';
+			res = res + char[i];
 		}
 	return res;
 }
